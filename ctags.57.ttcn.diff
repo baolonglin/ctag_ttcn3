@@ -1,0 +1,17 @@
+diff ctags.57/parsers.h ctags.ttcn/parsers.h
+52c52,53
+< 	YaccParser
+---
+> 	YaccParser, \
+> 	TTCNParser
+diff ctags.57/source.mak ctags.ttcn/source.mak
+53c53,54
+< 	vstring.c
+---
+> 	vstring.c \
+> 	ttcn.c
+104c105,106
+< 	vstring.$(OBJEXT)
+---
+> 	vstring.$(OBJEXT) \
+> 	ttcn.$(OBJEXT)
